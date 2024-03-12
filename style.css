@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.table-black{
+    border: 4px solid black;
+    height: 130px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.red-table{
+    border: 4px solid red;
+    height: 108px;
+    width: 155px;
+    position: relative;
+}
+.green-table1{
+    border: 4px solid green;
+    height:40px;
+    width: 70px;
+    margin: 2px;
+}
+.green-table2{
+    border: 4px solid green;
+    height:40px;
+    width: 70px;
+    margin: 2px;
+}
+.green-table3{
+    border: 4px solid green;
+    height:40px;
+    width: 70px;
+    margin: 2px;
+    right:0;
+    top: 0;
+    position: absolute;
+}
